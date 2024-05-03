@@ -1,0 +1,57 @@
+---@meta
+
+---@class UHUDPlayerCard_Self_WidgetBP_C : UHUDPlayerCard
+---@field BackFIllImage UImage
+---@field BackgroundGlowImage UImage
+---@field BackgroundGlowImage_1 UImage
+---@field BackgroundGlowImage_2 UImage
+---@field BackgroundGlowImage_3 UImage
+---@field BackgroundImage UImage
+---@field CharacterPortaitBGImage UImage
+---@field CharacterPortaitBGImage_1 UImage
+---@field CharacterPortaitBGImage_2 UImage
+---@field CharacterPortaitBGImage_3 UImage
+---@field CharacterPortaitBGImage_4 UImage
+---@field CharacterPortaitBGImage_5 UImage
+---@field CharacterPortraitAbberationImage UImage
+---@field CharacterPortraitAbberationImage_1 UImage
+---@field CharacterPortraitAbberationImage_2 UImage
+---@field CharacterPortraitBorderImage UImage
+---@field CharacterPortraitBorderImage_1 UImage
+---@field CharacterPortraitBorderImage_2 UImage
+---@field CharacterPortraitBorderImage_3 UImage
+---@field CharacterPortraitBorderImage_4 UImage
+---@field CharacterPortraitBorderImage_5 UImage
+---@field CharacterPortraitBorderImage_6 UImage
+---@field CharacterPortraitDistortionImage UImage
+---@field CharacterPortraitDownedImage UImage
+---@field CharacterPortraitGlowImage UImage
+---@field CharacterPortraitMarredImage UImage
+---@field CharacterPortraitScratchesImage UImage
+---@field CharacterPortraitShadowImage UImage
+---@field CharacterPortraitShadowImage_1 UImage
+---@field CharacterPortraitShadowImage_2 UImage
+---@field CharacterPortraitSmallBorderImage UImage
+---@field CharacterPortraitSmallBorderImage_1 UImage
+---@field CharacterPortraitSmallBorderImage_2 UImage
+---@field CharacterPortraitSmallBorderImage_3 UImage
+---@field CircleImage UImage
+---@field CircleImage_1 UImage
+---@field CircleImage_2 UImage
+---@field CircleImage_3 UImage
+---@field CircleImage_4 UImage
+---@field DeadDistortionImage UImage
+---@field DeadHealthBarBackgroundImage UImage
+---@field DollMinionImage UImage
+---@field DownedHealthBarBackgroundImage UImage
+---@field HealthyHealthBarBackgroundImage UImage
+---@field Image_126 UImage
+---@field InjuredHealthBarBackgroundImage UImage
+---@field MarredHealthBarBackgroundImage UImage
+---@field PlayerCardBackground UImage
+---@field SeparatorImage UImage
+---@field StatusBarBGImage UImage
+UHUDPlayerCard_Self_WidgetBP_C = {}
+
+
+

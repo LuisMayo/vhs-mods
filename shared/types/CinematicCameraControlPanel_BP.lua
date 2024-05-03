@@ -1,0 +1,59 @@
+---@meta
+
+---@class UCinematicCameraControlPanel_BP_C : UCinematicCameraControlPanel
+---@field CraneSpeedSlider USlider
+---@field CursorImage1 UImage
+---@field CursorImage10 UImage
+---@field CursorImage11 UImage
+---@field CursorImage12 UImage
+---@field CursorImage13 UImage
+---@field CursorImage14 UImage
+---@field CursorImage15 UImage
+---@field CursorImage16 UImage
+---@field CursorImage17 UImage
+---@field CursorImage18 UImage
+---@field CursorImage19 UImage
+---@field CursorImage2 UImage
+---@field CursorImage20 UImage
+---@field CursorImage21 UImage
+---@field CursorImage22 UImage
+---@field CursorImage23 UImage
+---@field CursorImage24 UImage
+---@field CursorImage3 UImage
+---@field CursorImage4 UImage
+---@field CursorImage5 UImage
+---@field CursorImage6 UImage
+---@field CursorImage7 UImage
+---@field CursorImage8 UImage
+---@field CursorImage9 UImage
+---@field DisableAbilitiesCheckBox UNavCheckbox
+---@field DisableCraftingIconsCheckbox UNavCheckbox
+---@field DisableDamagePanelCheckbox UNavCheckbox
+---@field DisableItemGlintCheckbox UNavCheckbox
+---@field DisablePickupPanelCheckbox UNavCheckbox
+---@field DisablePingsCheckbox UNavCheckbox
+---@field DisablePlayerCardsCheckbox UNavCheckbox
+---@field DisablePromptsCheckBox UNavCheckbox
+---@field DisableStatusBarCheckbox UNavCheckbox
+---@field DOFFarPlaneDistanceSlider USlider
+---@field DOFFarPlaneIntensitySlider USlider
+---@field DOFFocusPlaneSlider USlider
+---@field DOFIntensitySlider USlider
+---@field DOFNearPlaneDistanceSlider USlider
+---@field DOFNearPlaneIntensitySlider USlider
+---@field EnableDOFCheckBox UNavCheckbox
+---@field FlyAccelerationSlider USlider
+---@field FlySpeedSlider USlider
+---@field FOVSlider USlider
+---@field FOVSpeedSlider USlider
+---@field PauseEngineCheckBox UNavCheckbox
+---@field ResetFOVButton UButton
+---@field ResetRollButton UButton
+---@field RestoreDefaultsButton UButton
+---@field RollSpeedSlider USlider
+---@field RotationSpeedSlider USlider
+---@field TimescaleSlider USlider
+UCinematicCameraControlPanel_BP_C = {}
+
+
+

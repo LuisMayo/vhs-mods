@@ -1,0 +1,1 @@
+print("[SmartTeens] Mod loaded\n")
