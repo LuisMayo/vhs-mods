@@ -3789,7 +3789,7 @@ function AFrontEndPC:AddCustomizeCharacterRotation(Rotation) end
 ---@class AFrontEndSession : AGameSession
 AFrontEndSession = {}
 
-
+-- Gameplay managerrr let's goooo
 ---@class AGameplayGM : AGameMode
 ---@field mTimerHandle FTimerHandle
 ---@field mAllPlayerControllers TArray<APlayerController>
@@ -7887,6 +7887,7 @@ ASticker = {}
 function ASticker:OnRep_StickerData() end
 
 
+-- Teen base object
 ---@class ATPChar : ABaseChar
 ---@field mbAnimDebugModeEnabled boolean
 ---@field mpFaceAdditive UAnimSequence
@@ -8232,7 +8233,7 @@ function ASticker:OnRep_StickerData() end
 ---@field mbServerBeganHidingDuringTensionTrack boolean
 ---@field mServerTimeConsistentlyHearingTensionTrackWhileHiding float
 ---@field mbServerUsedSmokeBombToEscapeUnarmedChase boolean
----@field mpLandingCollisionCurve UCurveFloat
+---@field mpLandingCollisionCurve UCurveLum
 ---@field mServerLastSafePickupLocation FVector
 ---@field mbSlowedDuringElectrocution boolean
 ---@field mbShouldNotUpdateCollisionProfile boolean
