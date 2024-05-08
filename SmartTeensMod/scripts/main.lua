@@ -44,14 +44,19 @@ RegisterHook("/Script/Game.TPChar:MulticastAllOnTeenKnockdown", function(ctx)
     if (teen.IsProne() and teen.IsAIControlledCharacter()) then
         print("[SmartTeens] IsProne Progrees; %.3f\n", teen.mTimeBeingRevived);
         print("[SmartTeens] Entering Loop\n");
-        LoopAsync(2000, function()
-            ExecuteInGameThread(function ()
-                if teen ~= nil then
-                    print("[SmartTeens] Loop\n");
-                    print("[SmartTeens] IsProne Progrees; %.3f\n", teen.mTimeBeingRevived);
-                    teen.mTimeBeingRevived = teen.mTimeBeingRevived + 1;
+        local loc = {X = teen.K2_GetActorLocation().X, Y = teen.K2_GetActorLocation().Y, Z = teen.K2_GetActorLocation().Z};
+        local rot = {Pitch = teen.K2_GetActorRotation().Pitch, Yaw = teen.K2_GetActorRotation().Yaw, Roll = teen.K2_GetActorRotation().Roll};
+        LoopAsync(500, function()
+            -- ExecuteInGameThread(function ()
+            if teen ~= nil then
+                print("[SmartTeens] Loop\n");
+                print("[SmartTeens] IsProne Progrees; %.3f\n", teen.mTimeBeingRevived);
+                if not teen.IsBeingRevived() then
+                    teen.K2_TeleportTo(loc, rot);
                 end
-            end)
+                teen.mTimeBeingRevived = teen.mTimeBeingRevived + 0.16;
+            end
+            -- end)
             return teen == nil or not teen.IsProne() or teen.mTimeBeingRevived > 10;
         end)
     end
