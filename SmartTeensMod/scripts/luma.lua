@@ -13,8 +13,6 @@ function luma.HookLuma()
             LoopAsync(500, function()
                 -- ExecuteInGameThread(function ()
                 if teen ~= nil then
-                    print("[SmartTeens] Loop\n");
-                    print("[SmartTeens] IsProne Progrees; %.3f\n", teen.mTimeBeingRevived);
                     if not teen.IsBeingRevived() then
                         teen.K2_TeleportTo(loc, rot);
                     end
@@ -27,3 +25,5 @@ function luma.HookLuma()
     end)
     
 end
+
+return luma
